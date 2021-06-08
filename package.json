@@ -22,7 +22,8 @@
     ]
   },
   "prettier": {
-    "printWidth": 120
+    "printWidth": 120,
+    "semi": false
   },
   "dependencies": {
     "next": "10.2.3",

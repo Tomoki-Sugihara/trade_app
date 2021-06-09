@@ -20,7 +20,7 @@ module.exports = {
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
     "func-style": ["error", "expression"],
-    "arrow-body-style": ["error", "always"],
+    // "arrow-body-style": ["error", "always"],
     "no-restricted-imports": ["error", { paths: [{ name: "react", importNames: ["default"] }] }],
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
@@ -69,6 +69,8 @@ module.exports = {
     "no-unreachable": "error",
     // カンマに関するルール
     "comma-dangle": [2, "always-multiline"],
+    // シングル
+    // "quotes": ["error", "single"]
   },
   overrides: [{ files: ["src/pages/**/*.tsx"], rules: { "import/no-default-export": "off" } }],
 }

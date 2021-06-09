@@ -23,7 +23,8 @@
   },
   "prettier": {
     "printWidth": 120,
-    "semi": false
+    "semi": false,
+    "singleQuote": true
   },
   "dependencies": {
     "next": "10.2.3",

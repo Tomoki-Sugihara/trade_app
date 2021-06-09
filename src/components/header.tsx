@@ -1,9 +1,9 @@
-import Link from "next/link"
-import type { VFC } from "react"
+import Link from 'next/link'
+import type { VFC } from 'react'
 
 const items = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
+  { href: '/', label: 'Home' },
+  { href: '/about', label: 'About' },
 ]
 
 export const Header: VFC = () => {

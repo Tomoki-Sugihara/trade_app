@@ -9,7 +9,7 @@ const App = (props: AppProps) => {
   return (
     <>
       <Head>
-        <title>nexst</title>
+        <title>trade-app</title>
       </Head>
       <QueryClientProvider client={queryClient}>
         <props.Component {...props.pageProps} />

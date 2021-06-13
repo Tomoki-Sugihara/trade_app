@@ -69,7 +69,7 @@ module.exports = {
     'no-unreachable': 'error',
     // カンマに関するルール
     'comma-dangle': [2, 'always-multiline'],
-    // シングル
+    // シングルクオート
     quotes: ['error', 'single'],
   },
   overrides: [{ files: ['src/pages/**/*.tsx'], rules: { 'import/no-default-export': 'off' } }],

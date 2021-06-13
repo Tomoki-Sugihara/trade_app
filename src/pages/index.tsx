@@ -1,9 +1,9 @@
-import type { VFC } from "react"
-import { Layout } from "src/components/layout"
+import type { VFC } from 'react'
+import { Layout } from 'src/components/layout'
 
 const Home: VFC = () => {
   const handleClick = () => {
-    window.alert("Hello, World!")
+    window.alert('Hello, World!')
   }
 
   return (
